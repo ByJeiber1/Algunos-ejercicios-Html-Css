@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    min-height: 70px;
+    display: flex;
+    background-color:#0C7AF2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: yellow;
+}
+
+header h2.DireccionFacebook:hover{
+    color: rgb(211, 12, 12);
+}
+
+@media(max-width:580px){
+    header{
+        flex-direction: column;
+    }s
+    nav{
+        padding: 10px 0px;
+    }
+
+}
